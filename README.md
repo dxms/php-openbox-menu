@@ -1,13 +1,13 @@
 # php-openbox-menu
 PHP based applications pipe-menu for Openbox Window Manager
 
-Requirements: 
+#Requirements: 
 
 1. Linux operating system
 2. Openbox Window Manager
 3. PHP >= 5.4.* installed *(apache/nginx not needed)
 
-Installation instructions:
+#Installation instructions:
 
 1. Copy and paste contents of the menu file into a new desired PATH location. *( eg: <b>~/bin/php-openbox-menu/menu</b> )
 2. Make script executable: <b>chmod +x ~/bin/php-openbox-menu/menu</b>
@@ -16,7 +16,7 @@ Installation instructions:
 5. Change label attribute value if You want to. 
 6. Reconfigure openbox menu.
 
-Good to know:
+#Good to know:
 
 - Once when this pipe-menu is altered, it will automatically create output as xml file in <b>~/.config/openbox</b> directory with it's name: <b>PHP-OBmenu.xml</b> inside. 
 - From that point afterwards, menu is not generated each time, but read from xml file. 
