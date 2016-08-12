@@ -21,5 +21,5 @@ PHP based applications pipe-menu for Openbox Window Manager
 - Once when this pipe-menu is altered, it will automatically create output as xml file in <code>~/.config/openbox</code> directory with it's name: <code>PHP-OBmenu.xml</code> inside. 
 - From that point afterwards, menu is not generated each time, but read from xml file. 
 - When You add new programs, this pipe-menu will not show fresh installations until generated .xml file is deleted, hence recreated again automatically upon next focus.
-- This can be changed on lines 37/38 (right before first function '<code>loc()</code>') with '<code>filemtime()</code>', etc.
+- This can be changed on lines 37/38, right before first function <code>loc()</code> with <code>filemtime()</code>, etc.
 - There are also few basic changes that can be made within source code, just follow shell style comments for that.
