@@ -12,7 +12,7 @@ PHP based applications pipe-menu for Openbox Window Manager
 1. Copy and paste contents of the menu file into a new desired PATH location. *( eg: <b>~/bin/php-openbox-menu/menu</b> )
 2. Make script executable: <b>chmod +x ~/bin/php-openbox-menu/menu</b>
 3. Open Your Openbox default-menu-file, usually <b>~/.config/openbox/menu.xml</b>
-4. Place this: <b>&lt;menu id="openbox_pipe_menu" label="Applications" execute="php ~/bin/php-openbox-menu/menu" /&gt;</b> <br> as new line somewhere into default-menu-file, wherever it suits.
+4. Place this: <code>&lt;menu id="openbox_pipe_menu" label="Applications" execute="php ~/bin/php-openbox-menu/menu" /&gt;</code> <br> as new line somewhere into default-menu-file, wherever it suits.
 5. Change label attribute value if You want to. 
 6. Reconfigure openbox menu.
 
