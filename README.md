@@ -22,4 +22,4 @@ Good to know:
 - From that point afterwards, menu is not generated each time, but read from xml file. 
 - When You add new programs, this pipe-menu will not show fresh installations until generated .xml file is deleted, hence recreated again automatically upon next focus.
 - This can be changed on lines 37/38 (right before first function '<b>loc()</b>') with '<b>filemtime()</b>', etc.
-- Thera are also few basic changes that can be made within source code, just follow shell style comments for that.
+- There are also few basic changes that can be made within source code, just follow shell style comments for that.
