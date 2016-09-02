@@ -136,7 +136,7 @@ else:
 			else $label = $e[2]; $xml.=(
 				'<menu id="'.$category_id.'" label="'.$label.'"> '
 			); foreach($scope as $name => $command):
-			$command = str_replace(['&quot','"'],'', $command);
+			$command = str_replace([' %U',' %u'], '', $command);
 			if($label === 'ConsoleOnly')
 				$command = (consoleOnly.' '.$command);
 			$xml.=(
