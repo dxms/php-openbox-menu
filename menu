@@ -22,7 +22,7 @@ $menu_file = ( ## 		Menu file path
 	HOME . 				# 	<-- would you change this .. ?
 	$after_home . 		# 	It doesn't need to be in '/.config/openbox/' ..
 	MENU_FILE_ID . 		# 	Look up.
-	'.xml' 				# 	<-- Leave as is.
+	'.xml' 				# 	<-- Leave as is. 
 );
 # Uncomment '$exit .=*' line  to make exit, reboot, poweroff commands appear at the bottom of the menu
 # Good for tint2 start menu usage.
