@@ -126,6 +126,6 @@ a.button:link { /* *** */ }
 a.button:visited { /* *** */ }
 a.button:hover { color: LightGrey; }
 a.button:active { color: Red; }
-a.button:hover small { font-size: 12px; color: Black; }
+a.button:hover small { color: Black; }
 
 
