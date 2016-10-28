@@ -5,7 +5,7 @@ PHP based applications pipe-menu for Openbox Window Manager
 
 1. Linux operating system
 2. Openbox Window Manager
-3. PHP >= 5.4.* installed *(apache/nginx not needed)
+3. PHP >= 5.4.* installed *(php-cli)
 
 ## Installation instructions:
 
