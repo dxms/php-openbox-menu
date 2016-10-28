@@ -29,18 +29,17 @@
 	<div class="inner clearfix">
       
 <section id="main-content">
-	<h3>
-	<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Requirements</h3>
+	<h3> Requirements </h3>
 	<ol>
 		<li> Linux operating system </li>
 		<li> Openbox Window Manager </li>
 		<li> PHP >= 5.4.* installed *(php-cli) </li>
 	</ol>
 
-	<h3>
-	<a id="installation-instructions" class="anchor" href="#installation-instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation Instructions</h3>
+	<h3> Installation Instructions </h3>
 	<ol>
-		<li> Copy and paste contents of the menu file into a new desired PATH location. *( eg: <code>~/bin/php-openbox-menu/menu</code> ) </li>
+		<li> Copy and paste contents of the menu file into a new desired PATH location. <br> 
+			*( eg: <code>~/bin/php-openbox-menu/menu</code> ) </li>
 		<li> Make script executable: <code>chmod +x ~/bin/php-openbox-menu/menu</code> </li>
 		<li> Open Your Openbox default-menu-file, usually <code>~/.config/openbox/menu.xml</code> </li>
 		<li> Place this: <code>&lt;menu id="openbox_pipe_menu" label="Applications" execute="php ~/bin/php-openbox-menu/menu" /&gt;</code> as new line somewhere into default-menu-file, wherever it suits. </li>
@@ -48,9 +47,7 @@
 		<li> Reconfigure openbox menu. </li>
 	</ol>
 
-	<h3>
-	<a id="good-to-know" class="anchor" href="#good-to-know" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Good To Know</h3>
-
+	<h3> Good To Know </h3>
 	<ul>
 		<li>Once when this pipe-menu is altered, it will automatically create output as xml file in <code>~/.config/openbox</code> directory with it's name: <code>PHP-OBmenu.xml</code> inside. </li>
 		<li>From that point afterwards, menu is not generated each time, but read from xml file for the next 60 seconds. </li>
