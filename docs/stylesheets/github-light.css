@@ -122,3 +122,10 @@ SOFTWARE.
   color: #1d3e81;
 }
 
+a.button:link { /* *** */ }
+a.button:visited { /* *** */ }
+a.button:hover { color: LightGrey; }
+a.button:active { color: Red; }
+a.button:hover small { font-size: 12px; color: Black; }
+
+
